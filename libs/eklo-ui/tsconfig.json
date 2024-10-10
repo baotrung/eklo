@@ -4,10 +4,7 @@
     "target": "ESNext",
     "moduleResolution": "Bundler",
     "jsx": "preserve",
-    "baseUrl": "./src",
-
-    "outDir": "dist",
-    "sourceMap": true
+    "baseUrl": "./src"
   },
   "include": ["src"]
 }
