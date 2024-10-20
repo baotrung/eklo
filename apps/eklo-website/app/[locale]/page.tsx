@@ -1,6 +1,5 @@
 import { HeroSection } from "./components/HeroSection";
 import styles from "./page.module.css";
-import { Button, HeaderBar } from "eklo-ui";
 
 export default function Home() {
   return (
@@ -9,7 +8,6 @@ export default function Home() {
       <HeroSection />
       <HeroSection />
       <HeroSection />
-      <footer className={styles.footer}></footer>
     </div>
   );
 }

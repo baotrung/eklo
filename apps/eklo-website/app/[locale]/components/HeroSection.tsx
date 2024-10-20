@@ -1,9 +1,11 @@
 import landingAvatarImage from "@/assets/landing-avatar.png";
 import { Button } from "eklo-ui";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import styles from "./HeroSection.module.css";
 
 export const HeroSection = () => {
+  const t = useTranslations("homePage");
   return (
     <section className={styles.heroSection}>
       <div className={styles.container}>
@@ -21,7 +23,7 @@ export const HeroSection = () => {
           <h1 className={styles.title}>Workshop online</h1>
           <p className={styles.date}>Thu 16.06.2021</p>
           <Button color="tertiary" fontSize="lg">
-            THAM GIA NGAY
+            {t("join_now")}
           </Button>
         </div>
       </div>
