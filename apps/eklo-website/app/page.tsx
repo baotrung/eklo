@@ -1,13 +1,14 @@
+import { HeroSection } from "./components/HeroSection";
 import styles from "./page.module.css";
-import { EkloButton } from "eklo-ui";
+import { Button, HeaderBar } from "eklo-ui";
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <header>header</header>
-      <main className={styles.main}>
-        <EkloButton variant="outlined" color="primary" label="Eklo" />
-      </main>
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
       <footer className={styles.footer}></footer>
     </div>
   );

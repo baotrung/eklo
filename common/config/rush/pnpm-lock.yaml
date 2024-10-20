@@ -12,6 +12,9 @@ importers:
 
   ../../apps/eklo-website:
     dependencies:
+      classnames:
+        specifier: ~2.5.1
+        version: 2.5.1
       eklo-ui:
         specifier: workspace:*
         version: link:../../libs/eklo-ui
@@ -46,6 +49,9 @@ importers:
 
   ../../libs/eklo-ui:
     dependencies:
+      classnames:
+        specifier: ~2.5.1
+        version: 2.5.1
       react:
         specifier: ^18
         version: 18.3.1
@@ -1301,6 +1307,9 @@ packages:
         optional: true
       '@chromatic-com/playwright':
         optional: true
+
+  classnames@2.5.1:
+    resolution: {integrity: sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==}
 
   client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
@@ -4163,6 +4172,8 @@ snapshots:
   check-error@2.1.1: {}
 
   chromatic@11.11.0: {}
+
+  classnames@2.5.1: {}
 
   client-only@0.0.1: {}
 

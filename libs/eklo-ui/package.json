@@ -10,7 +10,8 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "18",
-    "vite": "~5.4.8"
+    "vite": "~5.4.8",
+    "classnames": "~2.5.1"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "1.9.0",

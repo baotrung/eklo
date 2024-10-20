@@ -4,13 +4,12 @@
   /* shape */
   border : none;
   border-radius: var(--border-radius-md);
-  margin: var(--spacing-sm) var(--spacing-sm);
-  padding: var(--spacing-sm) var(--spacing-lg);
+  /* margin: var(--spacing-sm) var(--spacing-sm); */
+  padding: var(--spacing-sm) var(--spacing-md);
 
   background-color: var(--color-transparent);
 
   /* typography */
-  font-size: var(--font-size-subheading);
   font-family: var(--font-body);
   font-weight: normal;
   color: white;
@@ -59,4 +58,16 @@
 
 .text-tertiary{
   color: var(--color-tertiary);
+}
+
+.fontSize-sm{
+  font-size: var(--font-size-btn-sm);
+}
+
+.fontSize-md{
+  font-size: var(--font-size-btn-md);
+}
+
+.fontSize-lg{
+  font-size: var(--font-size-btn-lg);
 }

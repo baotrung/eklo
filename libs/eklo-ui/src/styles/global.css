@@ -6,6 +6,7 @@
   --color-tertiary: #007238;
   --color-background1: #FDF6BF;
   --color-background2: #99D1CE;
+  --color-text: #000;
   
 
   /* Fonts */
@@ -18,6 +19,11 @@
   --font-size-heading-small: 40px;
   --font-size-heading-medium: 56px;
   --font-size-heading-large: 56px;
+
+  --font-size-btn-sm: 16px;
+  --font-size-btn-md: 18px;
+  --font-size-btn-lg: 22px;
+
 
   /* Spacing */
   --spacing-xs: 0.25rem;
@@ -39,4 +45,9 @@
   --breakpoint-md: 900px;
   --breakpoint-lg: 1200px;
   --breakpoint-xl: 1536px;
+}
+
+
+* {
+  box-sizing: border-box;
 }

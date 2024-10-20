@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { HeaderBar } from "eklo-ui";
+import logo from "../assets/logo-eklo.svg";
+import { navItems } from "../config";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <HeaderBar brandLogo={logo.src} navItems={navItems} sticky />
+        <div>{children}</div>
+      </body>
     </html>
   );
 }

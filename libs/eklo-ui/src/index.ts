@@ -1,3 +1,3 @@
-export { EkloButton } from "./components/atoms/eklo-button"
-
-export { theme as defaultTheme } from "./styles/default-theme"
+export { Button } from "./components/atoms/button"
+export { DropdownMenu } from "./components/molecules/dropdown-menu/dropdown-menu"
+export { HeaderBar, NavItem } from "./components/organisms/header-bar" 

@@ -12,7 +12,8 @@
     "eklo-ui": "workspace:*",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.14"
+    "next": "14.2.14",
+    "classnames": "~2.5.1"
   },
   "devDependencies": {
     "typescript": "^5",

@@ -5,23 +5,31 @@
        url('./fonts/Montserrat-Regular.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'DelaGothicOne';
+  font-weight: 700;
+  src: local('montserrat'),
+       url('./fonts/DelaGothicOne-Regular.woff2') format('woff2');
+}
+
 :root {
     /* Colors */
     --color-transparent: #00000000;
     --color-primary: #FE5442;
-    --color-secondary: #732E78;
-    --color-tertiary: #007238;
+    --color-secondary: #007238;
+    --color-tertiary: #732E78;
     --color-background1: #FDF6BF;
     --color-background2: #99D1CE;
+    --color-text: #000;
     
   
     /* Fonts */
-    --font-heading: "Dela Gothic One", cursive;
+    --font-heading: "DelaGothicOne", sans-serif;
     --font-body: "Montserrat", sans-serif;
   
     /* Font Sizes */
     --font-size-paragraph: 24px;
-    --font-size-subheading: 24px;
+    --font-size-subheading: 18px;
     --font-size-heading-small: 40px;
     --font-size-heading-medium: 56px;
     --font-size-heading-large: 56px;
@@ -63,6 +71,7 @@ body {
 }
 
 body {
+  min-height: 100vh;
   color: black;
   background: var(--color-background1);
   
