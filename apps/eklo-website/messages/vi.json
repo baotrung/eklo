@@ -1,5 +1,9 @@
 {
   "homePage": {
-    "join_now": "Tham Gia Ngay"
+    "join_now": "Tham Gia Ngay",
+    "beyondYourBest": {
+      "description_1": "Từ mong muốn được đồng hành cùng các bạn học sinh, sinh viên, đặc biệt là các bạn du học sinh, đi qua những giai đoạn chuyển giao khó khăn, từ khi bước chân vào trường đại học cho đến công việc - thực tập đầu tiên, EKLO đi từ một ý tưởng của người sáng lập - chị Đỗ Minh Hằng, đến một dự án với hơn 5 hoạt động song song, nhận được phản hồi tích cực từ các bạn trẻ. Kể từ năm 2019 tới nay, EKLO đã có cơ hội làm việc với hơn 50 bạn thông qua những hoạt động đa dạng như workshop, coaching...",
+      "description_2": "Đến từ những trải nghiệm cá nhân, EKLO thấu hiểu được cảm xúc và khó khăn của các bạn học sinh, sinh viên. EKLO sẽ cùng các bạn tìm ra chìa khóa mở ra những cơ hội phía trước. Với một đội ngũ đa nhiều năm sống, học tập và làm việc ở môi trường quốc tế, EKLO sẽ là điểm tựa giúp các bạn du học sinh chinh phục cuộc sống môi trường làm việc ở nước ngoài một cách thật tự tin qua việc định hướng và rèn luyện các kĩ năng mềm như tìm việc, giao tiếp và phát triển bản thân."
+    }
   }
 }
