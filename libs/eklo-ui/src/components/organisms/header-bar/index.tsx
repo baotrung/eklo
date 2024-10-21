@@ -1,7 +1,7 @@
 "use client";
 
 import classNames from "classnames";
-import { FC } from "react";
+import React, { FC } from "react";
 import { MenuIcon } from "../../../components/icons/menu";
 import { Button } from "../../atoms/button";
 import { DropdownMenu } from "../../molecules/dropdown-menu/dropdown-menu";

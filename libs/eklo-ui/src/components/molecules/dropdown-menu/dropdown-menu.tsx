@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "../../atoms/button";
 import React, { FC, ReactNode, useEffect, useRef, useState } from "react";
 import styles from "./dropdown-menu.module.css";
 
@@ -9,7 +8,7 @@ interface MenuItem {
   label: string;
 }
 
-interface Props {
+export interface Props {
   items: Array<MenuItem>;
   activator: ReactNode;
   onItemSelected?: (item: MenuItem) => void;

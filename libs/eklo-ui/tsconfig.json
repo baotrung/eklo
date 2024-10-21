@@ -3,7 +3,7 @@
     "strict": true,
     "target": "ESNext",
     "moduleResolution": "Bundler",
-    "jsx": "preserve",
+    "jsx": "react",
     "baseUrl": "./src",
     "paths": {
       "assets/*": ["src/assets/*"]
