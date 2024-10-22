@@ -2,9 +2,10 @@
 
 import classNames from "classnames";
 import React, { FC } from "react";
-import { MenuIcon } from "../../../components/icons/menu";
 import { Button } from "../../atoms/button";
+import { MenuIcon } from "../../icons/menu";
 import { DropdownMenu } from "../../molecules/dropdown-menu/dropdown-menu";
+import { Modal } from "../../molecules/modal/modal";
 import styles from "./styles.module.css";
 
 interface NavLink {
@@ -52,13 +53,19 @@ export const HeaderBar: FC<Props> = ({
                   onClick={() => {}}
                   style={{ paddingLeft: "0.25rem", paddingRight: "0.25rem" }}
                 >
-                  {navItem.label}
+                  <span className={styles.navItemDesktop}>{navItem.label}</span>
                 </Button>
               );
             }
             return (
               <DropdownMenu
-                activator={<Button variant="text">{navItem.label}</Button>}
+                activator={
+                  <Button variant="text">
+                    <span className={styles.navItemDesktop}>
+                      {navItem.label}
+                    </span>
+                  </Button>
+                }
                 key={index}
                 items={navItem.items.map((link) => ({
                   id: link.label,
@@ -70,7 +77,37 @@ export const HeaderBar: FC<Props> = ({
           })}
         </div>
         <div className={styles["mobile-menu"]}>
-          <DropdownMenu activator={<MobileButton />} items={[]} />
+          <Modal trigger={<MobileButton />} fullscreen>
+            <div className={styles.mobileNav}>
+              {navItems.map((item) => {
+                if (item.type === "navlink") {
+                  return (
+                    <div className={styles["mobileNav-item-wrap"]}>
+                      <div>
+                        ________________________________________________
+                      </div>
+                      <div className={styles["mobileNav-item"]}>
+                        {item.label}
+                      </div>
+                    </div>
+                  );
+                }
+                return (
+                  <div className={styles["mobileNav-item-wrap"]}>
+                    <div>________________________________________________</div>
+                    <div className={styles["mobileNav-group"]}>
+                      {item.label}
+                    </div>
+                    {item.items.map((subItem) => (
+                      <div className={styles["mobileNav-item"]}>
+                        {subItem.label}
+                      </div>
+                    ))}
+                  </div>
+                );
+              })}
+            </div>
+          </Modal>
         </div>
       </div>
     </div>
