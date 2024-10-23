@@ -1,6 +1,6 @@
 :root {
   /* Colors */
-  --color-transparent: #00000000;
+  --color-transparent: rgba(0,0,0,0);
   --color-primary: #FE5442;
   --color-secondary: #732E78;
   --color-tertiary: #007238;
