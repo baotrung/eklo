@@ -5,6 +5,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { navItems } from "../../config";
 import "./globals.css";
+import { Footer } from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -27,6 +28,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <HeaderBar brandLogo={logo.src} navItems={navItems} sticky />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

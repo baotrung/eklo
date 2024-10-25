@@ -109,7 +109,7 @@ export const HeaderBar: FC<Props> = ({
                 <div>________________________________________________</div>
                 <div className={styles["mobileNav-group"]}>{item.label}</div>
                 {item.items.map((subItem) => (
-                  <div className={styles["mobileNav-item"]}>
+                  <div className={styles["mobileNav-item"]} key={subItem.label}>
                     {subItem.label}
                   </div>
                 ))}
@@ -119,13 +119,5 @@ export const HeaderBar: FC<Props> = ({
         </div>
       </Modal>
     </>
-  );
-};
-
-const MobileButton: FC = () => {
-  return (
-    <Button variant="text">
-      <MenuIcon color="primary" />
-    </Button>
   );
 };

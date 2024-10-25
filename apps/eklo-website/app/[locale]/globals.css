@@ -6,11 +6,19 @@
 }
 
 @font-face {
-  font-family: 'DelaGothicOne';
+  font-family: 'Montserrat';
   font-weight: 700;
   src: local('montserrat'),
+       url('../../fonts/Montserrat-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'DelaGothicOne';
+  font-weight: 700;
+  src: local('DelaGothicOne'),
        url('../../fonts/DelaGothicOne-Regular.woff2') format('woff2');
 }
+
 
 :root {
     /* Colors */

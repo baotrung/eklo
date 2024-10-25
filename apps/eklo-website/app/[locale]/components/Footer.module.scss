@@ -1,0 +1,58 @@
+.footer{
+  width: 100%;
+  padding: $spacing-lg $spacing-md;
+
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .wrapper{
+    width: 100%;
+    max-width: $breakpoint-lg;
+
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-lg;
+  }
+
+  
+
+
+  .contacts{
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+  }
+
+  .others{
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+
+  &{
+    font-family: $font-body;
+    color: $color-tertiary;
+  }
+
+  @media screen and (min-width: $breakpoint-md) {
+    padding: $spacing-xl;
+
+    .wrapper{
+      flex-direction: row;
+    }
+    
+
+    &{
+      font-size: $font-size-heading-xs
+    }
+  }
+}
+
+.bold{
+  font-weight: 700;
+}
+
+
