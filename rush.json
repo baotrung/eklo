@@ -332,11 +332,13 @@
   "projects": [
     {
       "packageName": "eklo-website",
-      "projectFolder": "apps/eklo-website"
+      "projectFolder": "apps/eklo-website",
+      "tags": ["app", "frontend", "nextjs", "react"]
     },
     {
       "packageName": "eklo-ui",
-      "projectFolder": "libs/eklo-ui"
+      "projectFolder": "libs/eklo-ui",
+      "tags": ["library", "ui", "react"]
     }
     // {
     //   /**

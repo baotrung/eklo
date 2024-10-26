@@ -98,14 +98,14 @@ export const HeaderBar: FC<Props> = ({
           {navItems.map((item) => {
             if (item.type === "navlink") {
               return (
-                <div className={styles["mobileNav-item-wrap"]}>
+                <div className={styles["mobileNav-item-wrap"]} key={item.label}>
                   <div>________________________________________________</div>
                   <div className={styles["mobileNav-item"]}>{item.label}</div>
                 </div>
               );
             }
             return (
-              <div className={styles["mobileNav-item-wrap"]}>
+              <div className={styles["mobileNav-item-wrap"]} key={item.label}>
                 <div>________________________________________________</div>
                 <div className={styles["mobileNav-group"]}>{item.label}</div>
                 {item.items.map((subItem) => (
