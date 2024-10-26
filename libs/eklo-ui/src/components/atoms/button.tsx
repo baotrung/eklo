@@ -2,7 +2,7 @@
 
 import classNames from "classnames";
 import React, { ButtonHTMLAttributes, forwardRef, ReactNode } from "react";
-import styles from "./button.module.css";
+import styles from "./button.module.scss";
 
 export interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "default" | "outlined" | "text";

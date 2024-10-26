@@ -22,15 +22,15 @@
 }
 
 .default-primary{
-  background-color: var(--color-primary);
+  background-color: $color-primary;
 }
 
 .default-secondary{
-  background-color: var(--color-secondary);
+  background-color: $color-secondary;
 }
 
 .default-tertiary{
-  background-color: var(--color-tertiary);
+  background-color: $color-tertiary;
 }
 
 .outlined-primary{
