@@ -4,7 +4,7 @@ import classNames from "classnames";
 import React, { FC, PropsWithChildren } from "react";
 import { Button } from "../../atoms/button";
 import { CloseIcon } from "../../icons/close";
-import styles from "./modal.module.css";
+import styles from "./modal.module.scss";
 
 interface ModalProps extends PropsWithChildren {
   fullScreen?: boolean;

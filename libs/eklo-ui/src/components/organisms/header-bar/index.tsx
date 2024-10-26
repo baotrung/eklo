@@ -7,7 +7,7 @@ import { MenuIcon } from "../../icons/menu";
 import { DropdownMenu } from "../../molecules/dropdown-menu/dropdown-menu";
 import { Modal } from "../../molecules/modal/modal";
 import { useModal } from "../../molecules/modal/useModal";
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 
 interface NavLink {
   type: "navlink";

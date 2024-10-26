@@ -13,7 +13,7 @@
 
 .modal {
   background-color: white;
-  border-radius: var(--border-radius-sm);
+  border-radius: $border-radius-sm;
   box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -1px rgba(0, 0, 0, 0.06);
   width: 100%;
   max-width: 32rem;
@@ -35,14 +35,14 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: var(--spacing-sm);
+  padding: $spacing-sm;
 }
 
 .content {
-  padding: 1rem;
+  padding: $spacing-md;
   overflow: auto;
 }
 
 .ovelay-invisible {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: $color-transparent;
 }
