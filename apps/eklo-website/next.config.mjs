@@ -5,7 +5,7 @@ const withNextIntl = createNextIntlPlugin();
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   sassOptions: {
-    additionalData: '@use "styles/variables" as *;',
+    additionalData: '@use "styles/variables" as *; @use "styles/mixins" as *;',
   },
 };
 

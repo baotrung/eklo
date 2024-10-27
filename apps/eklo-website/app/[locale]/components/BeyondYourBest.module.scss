@@ -1,0 +1,59 @@
+.container {
+  padding: $spacing-lg $spacing-md;
+
+  background-color: $color-background3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: $color-secondary;
+
+  .wrapper {
+    flex-direction: column;
+    gap: $spacing-lg;
+
+    @include screen(lg) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  .heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    @include screen(lg) {
+      width: 30%;
+
+      flex-direction: column;
+    }
+
+    .icon {
+      width: 24%;
+      height: auto;
+
+      @include screen(lg) {
+        width: 80%;
+      }
+    }
+  }
+
+  .content {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+
+    .description {
+      width: 100%;
+      display: flex;
+    }
+
+    .services {
+      color: $color-tertiary;
+    }
+  }
+}

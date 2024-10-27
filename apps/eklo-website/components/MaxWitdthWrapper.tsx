@@ -1,18 +1,14 @@
 import classNames from "classnames";
 import { FC, PropsWithChildren } from "react";
-import styles from "./MaxWitdthWrapper.module.css";
+import styles from "./MaxWitdthWrapper.module.scss";
 
 interface Props extends PropsWithChildren {
-  column?: boolean;
+  className?: string;
 }
 
-const MaxWidthWrapper: FC<Props> = ({ children, column = false }) => {
+const MaxWidthWrapper: FC<Props> = ({ children, className }) => {
   return (
-    <div
-      className={classNames(styles.wrapper, { [styles.flexColumn]: column })}
-    >
-      {children}
-    </div>
+    <div className={classNames(styles.wrapper, className)}>{children}</div>
   );
 };
 

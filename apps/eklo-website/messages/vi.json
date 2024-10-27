@@ -1,9 +1,14 @@
 {
   "homePage": {
     "join_now": "Tham Gia Ngay",
-    "beyondYourBest": {
+    "beyond_your_best": {
+      "slogan": "Beyond your best",
       "description_1": "Từ mong muốn được đồng hành cùng các bạn học sinh, sinh viên, đặc biệt là các bạn du học sinh, đi qua những giai đoạn chuyển giao khó khăn, từ khi bước chân vào trường đại học cho đến công việc - thực tập đầu tiên, EKLO đi từ một ý tưởng của người sáng lập - chị Đỗ Minh Hằng, đến một dự án với hơn 5 hoạt động song song, nhận được phản hồi tích cực từ các bạn trẻ. Kể từ năm 2019 tới nay, EKLO đã có cơ hội làm việc với hơn 50 bạn thông qua những hoạt động đa dạng như workshop, coaching...",
       "description_2": "Đến từ những trải nghiệm cá nhân, EKLO thấu hiểu được cảm xúc và khó khăn của các bạn học sinh, sinh viên. EKLO sẽ cùng các bạn tìm ra chìa khóa mở ra những cơ hội phía trước. Với một đội ngũ đa nhiều năm sống, học tập và làm việc ở môi trường quốc tế, EKLO sẽ là điểm tựa giúp các bạn du học sinh chinh phục cuộc sống môi trường làm việc ở nước ngoài một cách thật tự tin qua việc định hướng và rèn luyện các kĩ năng mềm như tìm việc, giao tiếp và phát triển bản thân."
+    },
+    "our_storie":{
+      "title" : "Câu chuyện của chúng mình",
+      "p1": "Trong tiếng Pháp, « éclore » là một động từ mang nghĩa « nở ra », « mở ra » (nghĩa đen) hoặc « phát triển » (nghĩa bóng). EKLO chính là phiên bản cute-hơn-một-chút của « éclore ». EKLO tin rằng mỗi bạn « gà con » qua những hoạt động của bọn mình sẽ « nở ra » thành những chú gà siêu nhân tự tin đối đầu với mọi thứ. Sau 12 năm sinh sống tại Pháp và 1 năm tại Mỹ, chị Hằng cũng đã từng là một cô gà con như bao bạn, cũng phải lăn lội khắp nơi để có một vị trí như bây giờ. Chị từng là thành viên của hội sinh viên tại Pháp và đã từng cùng tổ chức các chương trình du học cho các bạn trẻ vậy nên chị hiểu rất rõ các khó khăn các bạn đang trải qua và cả những khó khăn tiềm tàng nữa. Chính vì vậy, chị Hằng muốn ở bên cạnh và đồng hành cùng mọi người thông qua EKLO."
     }
   },
   "footer": {

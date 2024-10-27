@@ -1,0 +1,29 @@
+@use "./variables" as *;
+
+@mixin screen($breakpoint) {
+  @if $breakpoint == xs {
+    @media screen and (min-width: $breakpoint-lg) {
+      @content;
+    }
+  }
+  @if $breakpoint == sm {
+    @media screen and (min-width: $breakpoint-lg) {
+      @content;
+    }
+  }
+  @if $breakpoint == md {
+    @media screen and (min-width: $breakpoint-lg) {
+      @content;
+    }
+  }
+  @if $breakpoint == lg {
+    @media screen and (min-width: $breakpoint-lg) {
+      @content;
+    }
+  }
+  @if $breakpoint == xl {
+    @media screen and (min-width: $breakpoint-lg) {
+      @content;
+    }
+  }
+}

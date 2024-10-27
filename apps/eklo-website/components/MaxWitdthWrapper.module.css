@@ -1,9 +1,0 @@
-.wrapper{
-  width: 100%;
-  max-width: var(--breakpoint-lg);
-  display: flex;
-}
-
-.flexColumn{
-  flex-direction: column;
-}

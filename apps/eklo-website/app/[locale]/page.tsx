@@ -1,5 +1,6 @@
 import BeyondYourBest from "./components/BeyondYourBest";
 import { HeroSection } from "./components/HeroSection";
+import { OurStory } from "./components/OurStorie";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div className={styles.page}>
       <HeroSection />
       <BeyondYourBest />
+      <OurStory />
     </div>
   );
 }
