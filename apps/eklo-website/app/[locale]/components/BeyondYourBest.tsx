@@ -6,9 +6,9 @@ import Image from "next/image";
 import styles from "./BeyondYourBest.module.scss";
 
 export default function BeyondYourBest() {
-  const t = useTranslations("homePage.beyond_your_best");
+  const t = useTranslations("home_page.beyond_your_best");
   return (
-    <section className={styles.container}>
+    <section id="beyond-your-best" className={styles.container}>
       <MaxWidthWrapper className={styles.wrapper}>
         <div className={styles.heading}>
           <h2>{t("slogan")}</h2>

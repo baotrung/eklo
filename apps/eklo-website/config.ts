@@ -1,26 +1,10 @@
-import { NavItem } from "eklo-ui";
+import { type NavItem } from "./types";
 
 export const navItems: Array<NavItem> = [
   {
-    type: "list",
-    label: "services",
-    items: [
-      {
-        type: "navlink",
-        label: "coaching",
-        path: "/",
-      },
-      {
-        type: "navlink",
-        label: "follow",
-        path: "/",
-      },
-    ],
-  },
-  {
     type: "navlink",
     label: "about",
-    path: "/",
+    path: "/about",
   },
   {
     type: "navlink",
@@ -43,4 +27,4 @@ export const navItems: Array<NavItem> = [
       },
     ],
   },
-]
+];

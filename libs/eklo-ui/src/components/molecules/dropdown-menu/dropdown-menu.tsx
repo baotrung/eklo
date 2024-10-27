@@ -6,6 +6,7 @@ import styles from "./dropdown-menu.module.scss";
 interface MenuItem {
   id: string;
   label: string;
+  onSelected?: () => void;
 }
 
 export interface Props {
@@ -27,6 +28,7 @@ export const DropdownMenu: FC<Props> = ({
 
   function handleOnMenuItemClicked(item: MenuItem) {
     setExpand(false);
+    item.onSelected?.();
     onItemSelected?.(item);
   }
 

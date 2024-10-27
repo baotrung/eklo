@@ -2,22 +2,20 @@ import landingAvatarImage from "@/assets/landing-avatar.png";
 import { Button } from "eklo-ui";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import styles from "./HeroSection.module.css";
+import styles from "./HeroSection.module.scss";
 
 export const HeroSection = () => {
-  const t = useTranslations("homePage");
+  const t = useTranslations("home_page");
   return (
     <section className={styles.heroSection}>
       <div className={styles.container}>
         <div className={styles.imageWrapper}>
-          <div className={styles.circleImage}>
-            <Image
-              src={landingAvatarImage}
-              alt="Workshop participants"
-              layout="fill"
-              objectFit="contain"
-            />
-          </div>
+          <Image
+            src={landingAvatarImage}
+            alt="Workshop participants"
+            className={styles.circleImage}
+            priority
+          />
         </div>
         <div className={styles.content}>
           <h1 className={styles.title}>Workshop online</h1>

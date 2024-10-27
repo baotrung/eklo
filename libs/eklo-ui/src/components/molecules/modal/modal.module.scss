@@ -14,11 +14,16 @@
 .modal {
   background-color: white;
   border-radius: $border-radius-sm;
-  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 -2px 4px -1px rgba(0, 0, 0, 0.06);
   width: 100%;
   max-width: 32rem;
   max-height: 90vh;
   margin: 1rem;
+
+  display: flex;
+  flex-direction: column;
+
   transition: transform 2s ease-in;
 }
 
@@ -40,7 +45,10 @@
 
 .content {
   padding: $spacing-md;
+  flex: 1;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .ovelay-invisible {

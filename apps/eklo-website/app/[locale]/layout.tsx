@@ -1,10 +1,8 @@
-import logo from "@/assets/logo-eklo.svg";
-import { HeaderBar } from "eklo-ui";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
-import { navItems } from "../../config";
 import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
 import "./globals.scss";
 
 export const metadata: Metadata = {
@@ -12,13 +10,15 @@ export const metadata: Metadata = {
   description: "Beyond your best",
 };
 
+interface Props {
+  children: React.ReactNode;
+  params: { locale: string };
+}
+
 export default async function RootLayout({
   children,
   params: { locale },
-}: Readonly<{
-  children: React.ReactNode;
-  params: { locale: string };
-}>) {
+}: Readonly<Props>) {
   // Providing all messages to the client
   // side is the easiest way to get started
   const messages = await getMessages();
@@ -26,7 +26,8 @@ export default async function RootLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          <HeaderBar brandLogo={logo.src} navItems={navItems} sticky />
+          {/* <HeaderBar brandLogo={logo.src} navItems={navItems} sticky /> */}
+          <Header />
           {children}
           <Footer />
         </NextIntlClientProvider>

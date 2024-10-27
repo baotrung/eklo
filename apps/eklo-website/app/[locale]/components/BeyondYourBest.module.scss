@@ -9,6 +9,10 @@
 
   color: $color-secondary;
 
+  @include screen(lg) {
+    padding: $spacing-xl $spacing-md;
+  }
+
   .wrapper {
     flex-direction: column;
     gap: $spacing-lg;
@@ -31,7 +35,7 @@
     }
 
     .icon {
-      width: 24%;
+      width: 6rem;
       height: auto;
 
       @include screen(lg) {
@@ -53,7 +57,15 @@
     }
 
     .services {
+      display: flex;
+      flex-direction: column;
+      gap: $spacing-sm;
+
       color: $color-tertiary;
+
+      @include screen(lg) {
+        gap: $spacing-md;
+      }
     }
   }
 }

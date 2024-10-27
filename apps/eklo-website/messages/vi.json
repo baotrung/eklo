@@ -1,5 +1,5 @@
 {
-  "homePage": {
+  "home_page": {
     "join_now": "Tham Gia Ngay",
     "beyond_your_best": {
       "slogan": "Beyond your best",
@@ -10,6 +10,12 @@
       "title" : "Câu chuyện của chúng mình",
       "p1": "Trong tiếng Pháp, « éclore » là một động từ mang nghĩa « nở ra », « mở ra » (nghĩa đen) hoặc « phát triển » (nghĩa bóng). EKLO chính là phiên bản cute-hơn-một-chút của « éclore ». EKLO tin rằng mỗi bạn « gà con » qua những hoạt động của bọn mình sẽ « nở ra » thành những chú gà siêu nhân tự tin đối đầu với mọi thứ. Sau 12 năm sinh sống tại Pháp và 1 năm tại Mỹ, chị Hằng cũng đã từng là một cô gà con như bao bạn, cũng phải lăn lội khắp nơi để có một vị trí như bây giờ. Chị từng là thành viên của hội sinh viên tại Pháp và đã từng cùng tổ chức các chương trình du học cho các bạn trẻ vậy nên chị hiểu rất rõ các khó khăn các bạn đang trải qua và cả những khó khăn tiềm tàng nữa. Chính vì vậy, chị Hằng muốn ở bên cạnh và đồng hành cùng mọi người thông qua EKLO."
     }
+  },
+  "header":{
+    "home": "Trang chủ",
+    "about" : "About",
+    "services": "Services",
+    "blog": "Blog"
   },
   "footer": {
     "follow_us": "THEO DÕI CHÚNG MÌNH",

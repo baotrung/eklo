@@ -5,15 +5,13 @@ import Image from "next/image";
 import styles from "./OurStorie.module.scss";
 
 export const OurStory = () => {
-  const t_ = useTranslations("homePage.our_storie");
+  const t_ = useTranslations("home_page.our_storie");
   return (
     <div className={classNames(styles.OurStory)}>
       <div className={styles.wrapper}>
-        <Image
-          src={imageUrl}
-          alt="img-founder.png"
-          className={styles["image-lg"]}
-        />
+        <div className={styles["image-lg"]}>
+          <Image src={imageUrl} alt="img-founder.png" />
+        </div>
         <div className={styles.content}>
           <h2>{t_("title")}</h2>
           <Image

@@ -1,0 +1,87 @@
+.container {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+
+  background-color: $color-background1;
+
+  .wrapper {
+    justify-content: space-between;
+    align-items: center;
+
+    .brand {
+      height: 2.5rem;
+      width: auto;
+      margin: 0 $spacing-md;
+    }
+
+    .navbar-lg {
+      display: none;
+
+      .nav-item {
+        font-family: $font-body;
+        font-size: 1.25rem;
+        font-weight: 700;
+      }
+
+      @include screen(lg) {
+        display: flex;
+        gap: $spacing-sm;
+      }
+    }
+
+    .menu-btn {
+      @include screen(lg) {
+        display: none;
+      }
+    }
+  }
+}
+
+.mobileNav {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: $spacing-lg;
+
+  .item-wrap {
+    color: $color-primary;
+    font-family: $font-body;
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: $spacing-md;
+
+    .name {
+      font-family: $font-body;
+      font-size: 1rem;
+      font-weight: 700;
+      color: rgba($color: #000000, $alpha: 0.5);
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: $spacing-lg;
+    }
+  }
+}
