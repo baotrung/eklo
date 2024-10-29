@@ -55,7 +55,7 @@ export const Header: FC = () => {
                   key={index}
                   items={navItem.items.map((link) => ({
                     id: link.label,
-                    label: link.label,
+                    label: t(link.label),
                     onSelected: () => {
                       router.push(link.path);
                     },

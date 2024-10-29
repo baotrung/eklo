@@ -2,14 +2,25 @@ import { type NavItem } from "./types";
 
 export const navItems: Array<NavItem> = [
   {
-    type: "navlink",
-    label: "about",
-    path: "/about",
-  },
-  {
-    type: "navlink",
-    label: "blog",
-    path: "/",
+    type: "list",
+    label: "activities",
+    items: [
+      {
+        type: "navlink",
+        label: "toi_ke_chuyen",
+        path: "/",
+      },
+      {
+        type: "navlink",
+        label: "thu_vien",
+        path: "/",
+      },
+      {
+        type: "navlink",
+        label: "podcast",
+        path: "/",
+      },
+    ],
   },
   {
     type: "list",
@@ -17,14 +28,19 @@ export const navItems: Array<NavItem> = [
     items: [
       {
         type: "navlink",
-        label: "coaching",
+        label: "coaching_1_1",
         path: "/",
       },
       {
         type: "navlink",
-        label: "follow",
+        label: "follow_up",
         path: "/",
       },
     ],
+  },
+  {
+    type: "navlink",
+    label: "blog",
+    path: "/",
   },
 ];

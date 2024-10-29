@@ -1,4 +1,25 @@
 {
+  "header":{
+    "home": "Trang chủ",
+    "activities" : "Hoạt Động",
+    "toi_ke_chuyen": "Tôi kể chuyện",
+    "thu_vien":"Thư viện đa phương tiện",
+    "podcast": "Podcast",
+    "services": "Dịch vụ",
+    "blog": "Blog",
+    "coaching_1_1": "Coaching 1:1",
+    "follow_up": "Follow up"
+  },
+  "footer": {
+    "follow_us": "THEO DÕI CHÚNG MÌNH",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "contact": "THÔNG TIN LIÊN HỆ",
+    "legal_notice": "THÔNG BÁO PHÁP LÝ",
+    "usage_condition": "ĐIỀU KIỆN SỬ DỤNG",
+    "map": "BẢN ĐỒ",
+    "donate": "ỦNG HỘ"
+  },
   "home_page": {
     "join_now": "Tham Gia Ngay",
     "beyond_your_best": {
@@ -22,21 +43,5 @@
       "review_3": "Tham gia các Workshops của EKLO, mình thấy được lắng nghe và học được cách làm nổi bật giá trị của bản thân. Tham gia các Workshops của EKLO, mình thấy được lắng nghe và học được cách làm nổi bật giá trị của bản thân.",
       "review_4": "Đến với EKLO, mình như được đến với gia đình thứ 3."
     }
-  },
-  "header":{
-    "home": "Trang chủ",
-    "about" : "About",
-    "services": "Services",
-    "blog": "Blog"
-  },
-  "footer": {
-    "follow_us": "THEO DÕI CHÚNG MÌNH",
-    "facebook": "Facebook",
-    "instagram": "Instagram",
-    "contact": "THÔNG TIN LIÊN HỆ",
-    "legal_notice": "THÔNG BÁO PHÁP LÝ",
-    "usage_condition": "ĐIỀU KIỆN SỬ DỤNG",
-    "map": "BẢN ĐỒ",
-    "donate": "ỦNG HỘ"
   }
 }
