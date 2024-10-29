@@ -1,0 +1,56 @@
+.container {
+  background-color: $color-background3;
+}
+
+.wrapper {
+  padding: $spacing-lg $spacing-md;
+}
+
+.review {
+  padding-bottom: $spacing-lg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $spacing-md;
+
+  color: $color-secondary;
+  @include screen(md) {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: $spacing-lg;
+  }
+  .review-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: $spacing-md;
+
+    @include screen(md) {
+      align-items: flex-start;
+    }
+
+    .reviewer-name {
+      font-family: "Montserrat";
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+  display: inline-block;
+  background-color: black;
+  border-radius: 50%;
+  opacity: 0.2;
+  margin: $spacing-xs;
+}
+
+.pagination-bullet-active {
+  background: $color-tertiary;
+  opacity: 0.8;
+}

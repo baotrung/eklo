@@ -14,7 +14,8 @@
     "react-dom": "^18",
     "next": "14.2.14",
     "classnames": "~2.5.1",
-    "next-intl": "~3.21.1"
+    "next-intl": "~3.21.1",
+    "swiper": "~11.1.14"
   },
   "devDependencies": {
     "typescript": "^5",

@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .max-width-wrapper {
+    width: 100%;
+    max-width: $breakpoint-lg;
+    display: flex;
+    flex-direction: column;
+  }
+}

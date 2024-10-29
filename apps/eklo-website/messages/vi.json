@@ -9,6 +9,18 @@
     "our_storie":{
       "title" : "Câu chuyện của chúng mình",
       "p1": "Trong tiếng Pháp, « éclore » là một động từ mang nghĩa « nở ra », « mở ra » (nghĩa đen) hoặc « phát triển » (nghĩa bóng). EKLO chính là phiên bản cute-hơn-một-chút của « éclore ». EKLO tin rằng mỗi bạn « gà con » qua những hoạt động của bọn mình sẽ « nở ra » thành những chú gà siêu nhân tự tin đối đầu với mọi thứ. Sau 12 năm sinh sống tại Pháp và 1 năm tại Mỹ, chị Hằng cũng đã từng là một cô gà con như bao bạn, cũng phải lăn lội khắp nơi để có một vị trí như bây giờ. Chị từng là thành viên của hội sinh viên tại Pháp và đã từng cùng tổ chức các chương trình du học cho các bạn trẻ vậy nên chị hiểu rất rõ các khó khăn các bạn đang trải qua và cả những khó khăn tiềm tàng nữa. Chính vì vậy, chị Hằng muốn ở bên cạnh và đồng hành cùng mọi người thông qua EKLO."
+    },
+    "activities_section":{
+      "title": "Hoạt động",
+      "toi_ke_chuyen": "TÔI KỂ CHUYỆN",
+      "thu_vien": "THƯ VIỆN ĐA PHƯƠNG TIỆN",
+      "podcast": "PODCAST « TRÀ ĐÁ CÙNG EKLO »"
+    },
+    "reviews_section": {
+      "review_1": "Cùng là người trần mắt thịt nên chị Hằng không có phép màu, lại chẳng có kính đen để làm thầy bói luôn. Thông qua Eklo, chị chỉ có những chia sẻ chân thành để giúp mình thấy mọi thứ đơn giản hơn, và quan trọng là thêm động lực để làm điều mình thực sự muốn.",
+      "review_2": "Gặp chị Hằng để biết chuẩn bị CV, lettre hay phỏng vấn không « đáng sợ » như mình nghĩ nhé! Cứ nghĩ mọi thứ đơn giản hơn và không cần nghĩ ngợi cao xa vấn đề ở đâu hết cả! Còn nhiều cái hay lắm nên mọi người thường xuyên theo dõi page của chị nhé, toàn bài bổ ích thôi!",
+      "review_3": "Tham gia các Workshops của EKLO, mình thấy được lắng nghe và học được cách làm nổi bật giá trị của bản thân. Tham gia các Workshops của EKLO, mình thấy được lắng nghe và học được cách làm nổi bật giá trị của bản thân.",
+      "review_4": "Đến với EKLO, mình như được đến với gia đình thứ 3."
     }
   },
   "header":{
