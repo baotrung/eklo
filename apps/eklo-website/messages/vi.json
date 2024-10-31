@@ -8,7 +8,7 @@
     "services": "Dịch vụ",
     "blog": "Blog",
     "coaching_1_1": "Coaching 1:1",
-    "follow_up": "Follow up"
+    "workshop": "Workshop"
   },
   "footer": {
     "follow_us": "THEO DÕI CHÚNG MÌNH",
@@ -43,5 +43,8 @@
       "review_3": "Tham gia các Workshops của EKLO, mình thấy được lắng nghe và học được cách làm nổi bật giá trị của bản thân. Tham gia các Workshops của EKLO, mình thấy được lắng nghe và học được cách làm nổi bật giá trị của bản thân.",
       "review_4": "Đến với EKLO, mình như được đến với gia đình thứ 3."
     }
+  },
+  "workshop_page":{
+    "presentation": "Workshop là một mô hình coaching với một nhóm nhỏ người tham gia để bạn có thể dễ dàng nhận được những lời khuyên cá nhân. Đây cũng sẽ là cơ hội để bạn trò chuyện và chia sẻ kinh nghiệm cá nhân của mình với những bạn tham gia khác để tìm thấy những lời khuyên giá trị."
   }
 }

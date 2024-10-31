@@ -1,0 +1,59 @@
+.container {
+  padding: $spacing-md;
+  background-color: white;
+
+  .wrapper {
+    gap: $spacing-md;
+    @include screen(md) {
+      gap: $spacing-xl;
+    }
+  }
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .title {
+    color: $color-tertiary;
+  }
+
+  .img-star {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    @include screen(md) {
+      width: 8rem;
+      height: 8rem;
+    }
+  }
+}
+
+.presentation-wrap {
+  display: flex;
+  align-items: center;
+  @include screen(md) {
+    justify-content: space-between;
+    gap: $spacing-xl;
+  }
+
+  .img-pattern {
+    position: relative;
+    height: auto;
+    width: 45%;
+    height: 12rem;
+  }
+
+  p {
+    flex: 1;
+    color: $color-tertiary;
+  }
+}
+
+.decor {
+  display: none;
+  @include screen(md) {
+    display: block;
+  }
+}

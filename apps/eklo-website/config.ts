@@ -33,8 +33,8 @@ export const navItems: Array<NavItem> = [
       },
       {
         type: "navlink",
-        label: "follow_up",
-        path: "/",
+        label: "workshop",
+        path: "/workshop",
       },
     ],
   },

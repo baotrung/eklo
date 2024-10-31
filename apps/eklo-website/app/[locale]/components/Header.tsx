@@ -1,6 +1,6 @@
 "use client";
 import brandLogo from "@/assets/logo-eklo.svg";
-import MaxWidthWrapper from "@/components/MaxWitdthWrapper";
+import { MaxWidthContainer } from "@/components/MaxWidthContainer";
 import { navItems } from "@/config";
 import { Link, useRouter } from "@/i18n/routing";
 import { Button, DropdownMenu, MenuIcon, Modal, useModal } from "eklo-ui";
@@ -16,65 +16,66 @@ export const Header: FC = () => {
 
   return (
     <>
-      <div className={styles.container}>
-        <MaxWidthWrapper className={styles.wrapper}>
-          {/* brand */}
-          <Image
-            src={brandLogo}
-            alt="brand"
-            className={styles.brand}
-            onClick={() => {
-              router.push("/");
-            }}
-          />
+      <MaxWidthContainer
+        containerClassName={styles.container}
+        wrapperClassname={styles.wrapper}
+      >
+        {/* brand */}
+        <Image
+          src={brandLogo}
+          alt="brand"
+          className={styles.brand}
+          onClick={() => {
+            router.push("/");
+          }}
+        />
 
-          {/* Navbar desktop */}
-          <div className={styles["navbar-lg"]}>
-            {navItems.map((navItem, index) => {
-              if (navItem.type === "navlink") {
-                return (
-                  <Button
-                    key={index}
-                    variant="text"
-                    onClick={() => {
-                      router.push(navItem.path);
-                    }}
-                    className={styles["nav-item"]}
-                  >
+        {/* Navbar desktop */}
+        <div className={styles["navbar-lg"]}>
+          {navItems.map((navItem, index) => {
+            if (navItem.type === "navlink") {
+              return (
+                <Button
+                  key={index}
+                  variant="text"
+                  onClick={() => {
+                    router.push(navItem.path);
+                  }}
+                  className={styles["nav-item"]}
+                >
+                  {t(navItem.label)}
+                </Button>
+              );
+            }
+            return (
+              <DropdownMenu
+                activator={
+                  <Button variant="text" className={styles["nav-item"]}>
                     {t(navItem.label)}
                   </Button>
-                );
-              }
-              return (
-                <DropdownMenu
-                  activator={
-                    <Button variant="text" className={styles["nav-item"]}>
-                      {t(navItem.label)}
-                    </Button>
-                  }
-                  key={index}
-                  items={navItem.items.map((link) => ({
-                    id: link.label,
-                    label: t(link.label),
-                    onSelected: () => {
-                      router.push(link.path);
-                    },
-                  }))}
-                />
-              );
-            })}
-          </div>
+                }
+                key={index}
+                items={navItem.items.map((link) => ({
+                  id: link.label,
+                  label: t(link.label),
+                  onSelected: () => {
+                    router.push(link.path);
+                  },
+                }))}
+              />
+            );
+          })}
+        </div>
 
-          {/* trigger button for mobile menu  */}
-          <Button
-            variant="text"
-            onClick={mobileNavModal.openModal}
-            className={styles["menu-btn"]}
-          >
-            <MenuIcon color="primary" />
-          </Button>
-        </MaxWidthWrapper>
-      </div>
+        {/* trigger button for mobile menu  */}
+        <Button
+          variant="text"
+          onClick={mobileNavModal.openModal}
+          className={styles["menu-btn"]}
+        >
+          <MenuIcon color="primary" />
+        </Button>
+      </MaxWidthContainer>
 
       {/* modal for navmenu in smallscreen */}
       <Modal

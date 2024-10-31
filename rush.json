@@ -42,6 +42,11 @@
       "packageName": "eklo-ui",
       "projectFolder": "libs/eklo-ui",
       "tags": ["library", "ui", "react"]
+    },
+    {
+      "packageName": "@eklo/database",
+      "projectFolder": "libs/database",
+      "tags": ["library", "database", "ts", "mongo"]
     }
   ]
 }

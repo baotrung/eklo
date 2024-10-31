@@ -2,17 +2,17 @@
 
 @mixin screen($breakpoint) {
   @if $breakpoint == xs {
-    @media screen and (min-width: $breakpoint-lg) {
+    @media screen and (min-width: $breakpoint-xs) {
       @content;
     }
   }
   @if $breakpoint == sm {
-    @media screen and (min-width: $breakpoint-lg) {
+    @media screen and (min-width: $breakpoint-sm) {
       @content;
     }
   }
   @if $breakpoint == md {
-    @media screen and (min-width: $breakpoint-lg) {
+    @media screen and (min-width: $breakpoint-md) {
       @content;
     }
   }
@@ -22,7 +22,7 @@
     }
   }
   @if $breakpoint == xl {
-    @media screen and (min-width: $breakpoint-lg) {
+    @media screen and (min-width: $breakpoint-xl) {
       @content;
     }
   }
