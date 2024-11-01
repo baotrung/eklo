@@ -113,7 +113,7 @@ export const Header: FC = () => {
                 <div className={styles["items"]}>
                   {item.items.map((subItem) => (
                     <div className={styles["item-wrap"]} key={subItem.label}>
-                      {subItem.label}
+                      {t(subItem.label)}
                     </div>
                   ))}
                 </div>

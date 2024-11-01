@@ -13,6 +13,13 @@
 }
 
 @font-face {
+  font-family: "Montserrat";
+  font-weight: 900;
+  src: local("montserrat"),
+    url("../../fonts/Montserrat-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
   font-family: "DelaGothicOne";
   font-weight: 700;
   src: local("DelaGothicOne"),
@@ -106,8 +113,8 @@ p {
   line-height: 1.6rem;
   font-size: 1rem;
   @media screen and (min-width: $breakpoint-lg) {
-    line-height: 2rem;
-    font-size: 1.25rem;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
   }
 }
 

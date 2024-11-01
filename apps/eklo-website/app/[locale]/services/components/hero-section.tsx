@@ -1,11 +1,16 @@
+"use client";
+
 import { MaxWidthContainer } from "@/components/MaxWidthContainer";
 import classNames from "classnames";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { useService } from "../hooks/useService";
 import styles from "./hero-section.module.scss";
 
 export const HeroSection = () => {
-  const t = useTranslations("workshop_page");
+  const { serviceName } = useService();
+
+  const t = useTranslations(`services.${serviceName}_page`);
   return (
     <MaxWidthContainer
       containerClassName={styles.container}
@@ -14,7 +19,7 @@ export const HeroSection = () => {
       <div className={styles.heading}>
         <h2 className={styles.title}>Workshop</h2>
         <div className={classNames(styles["img-star"])}>
-          <Image src="/images/star-yellow.svg" alt="pattern workshop" fill />
+          <Image src={`/images/star-yellow.svg`} alt="pattern workshop" fill />
         </div>
       </div>
       <div className={styles["presentation-wrap"]}>

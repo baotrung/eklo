@@ -29,12 +29,12 @@ export const navItems: Array<NavItem> = [
       {
         type: "navlink",
         label: "coaching_1_1",
-        path: "/",
+        path: "/services/coaching",
       },
       {
         type: "navlink",
         label: "workshop",
-        path: "/workshop",
+        path: "/services/workshop",
       },
     ],
   },

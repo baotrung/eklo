@@ -1,0 +1,68 @@
+.container {
+  padding: $spacing-xl $spacing-md;
+  background-color: $color-background-4;
+}
+
+.wrapper {
+  gap: $spacing-lg;
+}
+
+.title {
+  text-align: center;
+  color: $color-tertiary;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $spacing-lg;
+
+  @include screen(md) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .btn {
+      align-self: center;
+    }
+  }
+
+  .service-name {
+    z-index: 1;
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: $spacing-md;
+
+    color: $color-secondary;
+    font-family: $font-heading;
+    font-size: 2rem;
+    font-weight: 900;
+
+    @include screen(md) {
+      font-size: 3rem;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      width: 80%;
+      height: 80%;
+      background-color: $color-background3;
+      border-end-end-radius: 50%;
+      border-start-start-radius: 100%;
+    }
+  }
+}
