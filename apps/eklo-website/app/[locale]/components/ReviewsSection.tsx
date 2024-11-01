@@ -11,7 +11,6 @@ import { FC } from "react";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/scss";
-import "swiper/scss/navigation";
 import "swiper/scss/pagination";
 import styles from "./ReviewsSection.module.scss";
 

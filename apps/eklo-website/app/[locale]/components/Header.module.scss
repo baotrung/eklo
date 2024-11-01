@@ -12,6 +12,7 @@
   overflow: visible;
 
   background-color: white;
+  box-shadow: 0 2px 4px $nav-shadow-color;
 
   .wrapper {
     flex-direction: row !important;
@@ -43,7 +44,7 @@
 
 .menu-btn {
   @include screen(md) {
-    display: none;
+    display: none !important;
   }
 }
 

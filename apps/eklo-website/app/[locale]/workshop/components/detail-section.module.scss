@@ -1,0 +1,45 @@
+.container {
+  padding: $spacing-xl $spacing-md;
+  .wrapper {
+    flex-direction: row !important;
+    gap: $spacing-xl;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+.paragraph {
+  flex: 1;
+  color: $color-tertiary;
+  font-size: medium;
+}
+
+.slider {
+  display: none;
+  @include screen(md) {
+    display: block;
+    width: 23vw;
+    height: 25vw;
+  }
+
+  .slide {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .pagination-bullet {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+    opacity: 0.2;
+    margin: $spacing-xs;
+  }
+
+  .pagination-bullet-active {
+    background: $color-tertiary;
+    opacity: 0.8;
+  }
+}
