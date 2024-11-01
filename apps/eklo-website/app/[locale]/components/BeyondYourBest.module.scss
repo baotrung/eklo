@@ -66,6 +66,10 @@
       @include screen(lg) {
         gap: $spacing-md;
       }
+
+      li {
+        cursor: pointer;
+      }
     }
   }
 }

@@ -11,27 +11,31 @@ const reviews = [
   {
     id: 0,
     title: "Review #1",
-    subtitle: "Atelier CV",
-    imageUrl: "/images/workshop/review-0.png",
+    subtitle: "By Minh Phương",
+    imageUrl: "/images/coaching/review-1.png",
   },
   {
     id: 1,
     title: "Review #2",
-    subtitle: "Atelier CV & LM",
-    imageUrl: "/images/workshop/review-1.png",
+    subtitle: "By Lâm",
+    imageUrl: "/images/coaching/review-2.png",
   },
   {
     id: 2,
-    title: "Review #3",
+    title: "By Bảo Tú",
     subtitle: "Atelier CV",
-    imageUrl: "/images/workshop/review-2.png",
+    imageUrl: "/images/coaching/review-3.png",
   },
 ];
 
 export const ReviewsSection = () => {
-  const t = useTranslations("services.workshop_page.reviews_section");
-  const reviewModal = useModal<string>();
-  const { openModal } = reviewModal;
+  const t = useTranslations("services.coaching_page.reviews_section");
+  const {
+    isOpen,
+    state: modalState,
+    closeModal,
+    openModal,
+  } = useModal<string>();
 
   const handleOpenReview = useCallback(
     ({ imageUrl }: { imageUrl: string }) => {
@@ -47,7 +51,6 @@ export const ReviewsSection = () => {
         wrapperClassname={styles.wrapper}
       >
         <h3 className={styles.title}>{t("title")}</h3>
-        <h3 className={styles.subtitle}>{t("subtitle")}</h3>
         <div className={styles["review-list"]}>
           {reviews.map((review) => (
             <div
@@ -74,7 +77,7 @@ export const ReviewsSection = () => {
         </div>
       </MaxWidthContainer>
       {/* modals */}
-      <Modal isOpen={reviewModal.isOpen} onClose={reviewModal.closeModal}>
+      <Modal isOpen={isOpen} onClose={closeModal}>
         <div
           style={{
             position: "relative",
@@ -83,7 +86,7 @@ export const ReviewsSection = () => {
           }}
         >
           <Image
-            src={reviewModal.state ?? ""}
+            src={modalState ?? ""}
             alt="review-img"
             fill
             sizes="100"

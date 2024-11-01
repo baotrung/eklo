@@ -36,6 +36,11 @@ export const navItems: Array<NavItem> = [
         label: "workshop",
         path: "/services/workshop",
       },
+      {
+        type: "navlink",
+        label: "public_speaking",
+        path: "/services/public-speaking",
+      },
     ],
   },
   {

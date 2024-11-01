@@ -1,5 +1,6 @@
 import starRed from "@/assets/star-red.svg";
 import MaxWidthWrapper from "@/components/MaxWitdthWrapper";
+import { Link } from "@/i18n/routing";
 import classNames from "classnames";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -20,14 +21,21 @@ export default function BeyondYourBest() {
           <p className={styles.description}>{t("description_2")}</p>
           <ul className={classNames("unstyled-list", styles.services)}>
             <li>
-              <h3>Workshop</h3>
+              <Link href="/services/workshop">
+                <h3>Workshop</h3>
+              </Link>
             </li>
-            <li>
-              <h3>Coaching</h3>
-            </li>
-            <li>
-              <h3>Public Speaking/ Soft Skill</h3>
-            </li>
+            <Link href="/services/coaching">
+              <li>
+                <h3>Coaching</h3>
+              </li>
+            </Link>
+
+            <Link href="/services/public-speaking">
+              <li>
+                <h3>Public Speaking / Soft Skill</h3>
+              </li>
+            </Link>
           </ul>
         </div>
       </MaxWidthWrapper>

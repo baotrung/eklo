@@ -24,11 +24,15 @@ export const Modal: FC<ModalProps> = ({
         className={classNames(styles.overlay, {
           [styles["ovelay-invisible"]]: fullScreen,
         })}
+        onClick={onClose}
       >
         <div
           className={classNames(styles.modal, {
             [styles["modal-fullscreen"]]: fullScreen,
           })}
+          onClick={(event) => {
+            event.stopPropagation();
+          }}
         >
           <div className={styles.header}>
             <Button

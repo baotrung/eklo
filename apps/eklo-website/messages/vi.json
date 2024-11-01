@@ -8,7 +8,8 @@
     "services": "Dịch vụ",
     "blog": "Blog",
     "coaching_1_1": "Coaching 1:1",
-    "workshop": "Workshop"
+    "workshop": "Workshop",
+    "public_speaking": "Public Speaking"
   },
   "footer": {
     "follow_us": "THEO DÕI CHÚNG MÌNH",
@@ -54,6 +55,18 @@
         "title": "Các bạn tham gia nói gì về workshops ?",
         "subtitle": "Cùng EKLO lắng nghe những trải nghiệm của từng bạn coachees nhé !"
       }
+    },
+    "coaching_page": {
+      "presentation": "Coaching 1:1 với EKLO là lựa chọn thích hợp cho những bạn còn ngần ngại đám đông, ngần ngại chia sẻ các vấn đề của bản thân với quá nhiều người. Qua những buổi tư vấn cá nhân, EKLO cho bạn những lời khuyên và sự tư vấn được thiết kế riêng, tập trung vào từng bạn. Với EKLO là người bạn đồng hành trên một con đường dài, chắc chắn bạn sẽ có câu trả lời chính xác nhất cho các thắc mắc của riêng mình.",
+      "detail_section": {
+        "join": "THAM GIA NGAY"
+      },
+      "reviews_section": {
+        "title": "Lắng nghe những chia sẻ từ các bạn coachies về trải nghiệm coaching 1:1 cùng Eklo nhé"
+      }
+    },
+    "public_speaking_page": {
+      "presentation": "Giao tiếp hiệu quả là chìa khóa mở ra nhiều cơ hội trong công việc, cũng như trong cuộc sống hằng ngày. Thấu hiểu tầm quan trọng của Public speaking trong các tình huống như khi thuyết trình trước đám đông, khi trình bày công việc trong buổi họp cho đến khi trả lời phỏng vấn tuyển dụng hay đơn giản như khi giao tiếp với một người bất kỳ, chuyên mục này được ra đời với mong muốn giúp bạn trau dồi kỹ năng này."
     },
     "other_activities": {
       "title": "Khóa học khác",
