@@ -50,7 +50,7 @@ export const ReviewsSection = () => {
         containerClassName={styles.container}
         wrapperClassname={styles.wrapper}
       >
-        <h3 className={styles.title}>{t("title")}</h3>
+        <h2 className={styles.title}>{t("title")}</h2>
         <div className={styles["review-list"]}>
           {reviews.map((review) => (
             <div

@@ -41,8 +41,8 @@ export const DetailSection = () => {
             <li>🌟 Trau dồi những kĩ năng ứng tuyển (CV/LM/Phỏng vấn).</li>
             <li>
               🌟 Chia sẻ những lo lắng, cùng xây dựng và củng cố sự tự tin cho
+              bạn.
             </li>
-            bạn.
           </ul>
         </p>
         <Button color="secondary">{t("join")}</Button>

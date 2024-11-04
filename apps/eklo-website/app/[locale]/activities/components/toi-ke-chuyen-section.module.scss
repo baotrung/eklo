@@ -1,0 +1,53 @@
+.container {
+  padding: $spacing-md;
+  * {
+    color: $color-tertiary;
+  }
+  @include screen(md) {
+    padding: $spacing-lg $spacing-md;
+  }
+  .wrapper {
+    gap: $spacing-md;
+  }
+}
+
+.title {
+  font-family: $font-body;
+  color: $color-tertiary;
+  font-size: 1.5rem;
+}
+
+.logo {
+  width: 30%;
+  height: 50px;
+  @include screen(md) {
+    width: 15%;
+  }
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $spacing-sm;
+
+  a {
+    display: contents;
+  }
+
+  @include screen(md) {
+    flex-direction: row;
+    gap: $spacing-md;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 1rem;
+    padding: $spacing-md $spacing-xl;
+    font-weight: 700;
+    @include screen(md) {
+      width: auto;
+      font-size: 1.25rem;
+    }
+  }
+}

@@ -36,8 +36,8 @@
   .service-name {
     z-index: 1;
     position: relative;
-    width: 25vw;
-    height: 25vw;
+    width: 60vw;
+    height: 60vw;
 
     display: flex;
     flex-direction: column;
@@ -52,6 +52,8 @@
 
     @include screen(md) {
       font-size: 3rem;
+      width: 25vw;
+      height: 25vw;
     }
 
     &::before {
@@ -60,7 +62,7 @@
       z-index: -1;
       width: 80%;
       height: 80%;
-      background-color: $color-background3;
+      background-color: $color-background-3;
       border-end-end-radius: 50%;
       border-start-start-radius: 100%;
     }

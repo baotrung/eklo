@@ -112,9 +112,14 @@ export const Header: FC = () => {
                 <div className={styles.name}>{t(item.label)}</div>
                 <div className={styles["items"]}>
                   {item.items.map((subItem) => (
-                    <div className={styles["item-wrap"]} key={subItem.label}>
+                    <Link
+                      href={subItem.path}
+                      className={styles["item-wrap"]}
+                      key={subItem.label}
+                      onClick={mobileNavModal.closeModal}
+                    >
                       {t(subItem.label)}
-                    </div>
+                    </Link>
                   ))}
                 </div>
               </div>

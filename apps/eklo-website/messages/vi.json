@@ -33,7 +33,7 @@
       "p1": "Trong tiếng Pháp, « éclore » là một động từ mang nghĩa « nở ra », « mở ra » (nghĩa đen) hoặc « phát triển » (nghĩa bóng). EKLO chính là phiên bản cute-hơn-một-chút của « éclore ». EKLO tin rằng mỗi bạn « gà con » qua những hoạt động của bọn mình sẽ « nở ra » thành những chú gà siêu nhân tự tin đối đầu với mọi thứ. Sau 12 năm sinh sống tại Pháp và 1 năm tại Mỹ, chị Hằng cũng đã từng là một cô gà con như bao bạn, cũng phải lăn lội khắp nơi để có một vị trí như bây giờ. Chị từng là thành viên của hội sinh viên tại Pháp và đã từng cùng tổ chức các chương trình du học cho các bạn trẻ vậy nên chị hiểu rất rõ các khó khăn các bạn đang trải qua và cả những khó khăn tiềm tàng nữa. Chính vì vậy, chị Hằng muốn ở bên cạnh và đồng hành cùng mọi người thông qua EKLO."
     },
     "activities_section": {
-      "title": "Hoạt động",
+      "title": "Hoạt động khác",
       "toi_ke_chuyen": "TÔI KỂ CHUYỆN",
       "thu_vien": "THƯ VIỆN ĐA PHƯƠNG TIỆN",
       "podcast": "PODCAST « TRÀ ĐÁ CÙNG EKLO »"
@@ -75,5 +75,10 @@
       "coaching": "Coaching 1:1",
       "know_more": "TÌM HIỂU THÊM"
     }
+  },
+  "activities_page": {
+    "title": "Hoạt Động Khác",
+    "presentation": "Những hoạt động bên lề của Eklo được mang đến cho các bạn với mong muốn gắn kết cộng đồng du học sinh và các bạn trẻ mới đi làm tại nước ngoài. Qua mô hình giải trí vui vẻ, những hoạt động này còn mang lại những gợi ý hoặc lời khuyên nho nhỏ để giúp các bạn hoàn thiện kĩ năng và phát triển bản thân vươn xa hơn.",
+    "podcast_description": "Bằng cách truyền tải nhẹ nhàng, gần gũi, podcast « Trà đá cùng EKLO » là một chốn bình yên cho bạn tìm đến khi cảm thấy mệt mỏi hay cô đơn trong hành trình phát triển bản thân. Viết nên từ những câu chuyện rất đời thường từ founder của EKLO, từng tập podcast là những tâm sự của một người bạn, một người chị về các chủ đề khác nhau. Bạn sẽ tìm thấy ở đây cách xây dựng thói quen đọc sách, hành trình phát triển bản thân ũng như câu chuyện về cuộc sống ở nước ngoài."
   }
 }

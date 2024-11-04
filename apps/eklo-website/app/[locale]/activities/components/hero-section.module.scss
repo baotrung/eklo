@@ -1,0 +1,75 @@
+.container {
+  margin-top: 10px;
+  padding: $spacing-md;
+  padding-top: $header-height;
+  background-color: white;
+
+  .wrapper {
+    gap: $spacing-md;
+    @include screen(md) {
+      gap: $spacing-xl;
+    }
+  }
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .title {
+    color: $color-tertiary;
+  }
+
+  .img-star {
+    width: 4rem;
+    height: 4rem;
+    fill: $color-background-2;
+
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    @include screen(md) {
+      width: 8rem;
+      height: 8rem;
+    }
+  }
+}
+
+.presentation-wrap {
+  display: flex;
+  align-items: center;
+  @include screen(md) {
+    justify-content: space-between;
+    gap: $spacing-xl;
+  }
+
+  .img-pattern {
+    position: relative;
+    height: auto;
+    width: 45%;
+    height: 12rem;
+  }
+
+  p {
+    flex: 1;
+    color: $color-tertiary;
+  }
+}
+
+.decor {
+  display: none;
+  @include screen(md) {
+    display: block;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
