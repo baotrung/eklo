@@ -1,7 +1,7 @@
 import { MaxWidthContainer } from "@/components/MaxWidthContainer";
 import { StarSvg } from "@/components/star-svg";
+import { Button } from "@/components/ui";
 import classNames from "classnames";
-import { Button } from "eklo-ui";
 import Link from "next/link";
 import styles from "./library-section.module.scss";
 import { LibraryLogo } from "./logo/library-logo";
@@ -45,6 +45,18 @@ export const LibrarySection = () => {
           Một series podcast với nhiều thông tin bổ ích.
         </li>
       </ul>
+
+      <iframe
+        src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FEkloCoaching%2Fvideos%2F422004493843889&width=500&show_text=false&height=281&appId"
+        width="500"
+        height="281"
+        style="border:none;overflow:hidden"
+        scrolling="no"
+        frameborder="0"
+        allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        allowFullScreen="true"
+      ></iframe>
 
       <div className={styles["btn-group"]}>
         <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf1eh1XlrILc-XgwO_B2UVDpQJZh1frz6U3yMZ9muaGE5dkLA/viewform">

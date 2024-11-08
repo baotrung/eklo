@@ -1,5 +1,5 @@
 import { MaxWidthContainer } from "@/components/MaxWidthContainer";
-import { Button } from "eklo-ui";
+import { Button } from "@/components/ui/atoms/button";
 import Link from "next/link";
 import { ToiKeChuyenLogo } from "./logo/toi-ke-chuyen-logo";
 import styles from "./toi-ke-chuyen-section.module.scss";

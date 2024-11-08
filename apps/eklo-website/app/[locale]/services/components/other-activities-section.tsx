@@ -1,8 +1,8 @@
 "use client";
 
 import { MaxWidthContainer } from "@/components/MaxWidthContainer";
+import { Button } from "@/components/ui";
 import { Link } from "@/i18n/routing";
-import { Button } from "eklo-ui";
 import { useTranslations } from "next-intl";
 import { useService } from "../hooks/useService";
 import styles from "./other-activities-section.module.scss";

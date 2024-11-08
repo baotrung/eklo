@@ -1,8 +1,8 @@
 "use client";
 
 import { MaxWidthContainer } from "@/components/MaxWidthContainer";
+import { Button } from "@/components/ui/atoms/button";
 import classNames from "classnames";
-import { Button } from "eklo-ui";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Pagination } from "swiper/modules";

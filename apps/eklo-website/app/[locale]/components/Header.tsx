@@ -1,9 +1,15 @@
 "use client";
 import brandLogo from "@/assets/logo-eklo.svg";
 import { MaxWidthContainer } from "@/components/MaxWidthContainer";
+import {
+  Button,
+  DropdownMenu,
+  MenuIcon,
+  Modal,
+  useModal,
+} from "@/components/ui";
 import { navItems } from "@/config";
 import { Link, useRouter } from "@/i18n/routing";
-import { Button, DropdownMenu, MenuIcon, Modal, useModal } from "eklo-ui";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { FC } from "react";

@@ -1,0 +1,41 @@
+.git
+**/.eslintrc.json
+**/.gitignore
+**/.gitattributes
+**/.prettierrc
+
+# Ignore node_modules in all subdirectories
+**/node_modules
+
+# Ignore build output directories
+**/dist
+**/build
+**/.next
+
+# Ignore TypeScript declaration files
+**/*.d.ts
+
+# Ignore test coverage reports
+**/coverage
+
+# Ignore environment variable files
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Ignore log files
+**/*.log
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+docker
+
+# Ignore other unnecessary files
+**/.DS_Store
+**/Thumbs.db
+
+# IGNORE some rush file
+common/temp
+common/deploy
+**/.rush

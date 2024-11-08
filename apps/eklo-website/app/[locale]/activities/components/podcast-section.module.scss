@@ -3,14 +3,11 @@
   background-color: $color-background-3;
 
   @include screen(md) {
-    padding: $spacing-lg $spacing-md;
+    padding: $spacing-xl $spacing-md;
   }
 
   .wrapper {
     gap: $spacing-md 0;
-    @include screen(md) {
-      padding: $spacing-lg 0;
-    }
   }
 }
 

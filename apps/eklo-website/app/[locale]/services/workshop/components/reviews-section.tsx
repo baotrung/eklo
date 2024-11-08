@@ -1,7 +1,7 @@
 "use client";
 
 import { MaxWidthContainer } from "@/components/MaxWidthContainer";
-import { Modal, useModal } from "eklo-ui";
+import { Modal, useModal } from "@/components/ui";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCallback } from "react";

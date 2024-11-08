@@ -1,6 +1,6 @@
 import landingAvatarImage from "@/assets/landing-avatar.png";
+import { Button } from "@/components/ui";
 import { Link } from "@/i18n/routing";
-import { Button } from "eklo-ui";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import styles from "./HeroSection.module.scss";
