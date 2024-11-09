@@ -1,7 +1,7 @@
 .container {
   padding: $spacing-md;
   background-color: $color-background-4;
-  * {
+  p {
     color: $color-tertiary;
   }
 
@@ -38,6 +38,7 @@
 .list {
   li {
     padding-bottom: 0.5rem;
+    color: $color-tertiary;
   }
 }
 

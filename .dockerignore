@@ -35,7 +35,4 @@ docker
 **/.DS_Store
 **/Thumbs.db
 
-# IGNORE some rush file
-common/temp
-common/deploy
-**/.rush
+.nx

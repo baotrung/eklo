@@ -30,6 +30,6 @@ export const navItems: Array<NavItem> = [
   {
     type: "navlink",
     label: "blog",
-    path: "/",
+    path: "/blog",
   },
 ];

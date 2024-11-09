@@ -1,6 +1,6 @@
 .container {
   padding: $spacing-md;
-  * {
+  p {
     color: $color-tertiary;
   }
   @include screen(md) {
