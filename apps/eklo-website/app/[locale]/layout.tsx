@@ -15,10 +15,17 @@ interface Props {
   params: { locale: string };
 }
 
-export default async function RootLayout({
-  children,
-  params: { locale },
-}: Readonly<Props>) {
+export default async function RootLayout(props: Readonly<Props>) {
+  const params = await props.params;
+
+  const {
+    locale
+  } = params;
+
+  const {
+    children
+  } = props;
+
   // Providing all messages to the client
   // side is the easiest way to get started
   const messages = await getMessages();
