@@ -3,5 +3,7 @@ packages:
   - apps/*
 onlyBuiltDependencies:
   - '@biomejs/biome'
+  - '@parcel/watcher'
+  - '@swc/core'
   - nx
   - sharp

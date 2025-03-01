@@ -34,17 +34,19 @@ export const DetailSection = () => {
       wrapperClassname={styles.wrapper}
     >
       <div className={styles.detail}>
-        <p className={styles.paragraph}>
-          Những tư vấn trực tiếp với chị Minh Hằng - founder của EKLO, người sẽ
-          đồng hành cùng bạn trong suốt quá trình coaching sẽ cùng bạn giải
-          quyết những nút thắt trong quá trình tìm việc tại nước ngoài. Coaching
-          1:1 sẽ giúp bạn tự tin hơn khi đối mặt với những thách thức của việc
-          tìm việc bằng chính những gì làm nên con người bạn, cũng như vững tin
-          vào những lựa chọn của bản thân vì bạn rất đặc biệt.
-          <br />
-          <br />
-          Mỗi buổi tư vấn được xây dựng dựa trên trình tự sau đây :
-          <br />
+        <div className={styles.paragraph}>
+          <p>
+            Những tư vấn trực tiếp với chị Minh Hằng - founder của EKLO, người
+            sẽ đồng hành cùng bạn trong suốt quá trình coaching sẽ cùng bạn giải
+            quyết những nút thắt trong quá trình tìm việc tại nước ngoài.
+            Coaching 1:1 sẽ giúp bạn tự tin hơn khi đối mặt với những thách thức
+            của việc tìm việc bằng chính những gì làm nên con người bạn, cũng
+            như vững tin vào những lựa chọn của bản thân vì bạn rất đặc biệt.
+            <br />
+            <br />
+            Mỗi buổi tư vấn được xây dựng dựa trên trình tự sau đây :
+          </p>
+
           <br />
           <ul className={classNames("unstyled-list", styles.list)}>
             <li>🌟 Cùng tìm hiểu về bạn và nhu cầu của bạn.</li>
@@ -59,7 +61,7 @@ export const DetailSection = () => {
               bạn.
             </li>
           </ul>
-        </p>
+        </div>
         <Button color="secondary">{t("join")}</Button>
       </div>
 
