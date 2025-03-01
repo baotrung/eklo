@@ -12,7 +12,7 @@ import { navItems } from "@/config";
 import { Link, useRouter } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { FC } from "react";
+import type { FC } from "react";
 import styles from "./Header.module.scss";
 
 export const Header: FC = () => {

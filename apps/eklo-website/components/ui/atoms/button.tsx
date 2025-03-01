@@ -1,7 +1,7 @@
 "use client";
 
 import classNames from "classnames";
-import React, { ButtonHTMLAttributes, forwardRef, ReactNode } from "react";
+import React, { type ButtonHTMLAttributes, forwardRef, type ReactNode } from "react";
 import styles from "./button.module.scss";
 
 export interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {

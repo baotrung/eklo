@@ -7,7 +7,7 @@ import minhImg from "@/assets/images/reviewers/img-minh.png";
 import { MaxWidthContainer } from "@/components/MaxWidthContainer";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { FC } from "react";
+import type { FC } from "react";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/scss";

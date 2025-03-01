@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import { FC, PropsWithChildren } from "react";
+import type { FC, PropsWithChildren } from "react";
 import styles from "./MaxWidthContainer.module.scss";
 
 interface Props extends PropsWithChildren {

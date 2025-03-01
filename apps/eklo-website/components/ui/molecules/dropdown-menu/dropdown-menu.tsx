@@ -1,6 +1,6 @@
 "use client";
 
-import React, { FC, ReactNode, useEffect, useRef, useState } from "react";
+import React, { type FC, type ReactNode, useEffect, useRef, useState } from "react";
 import styles from "./dropdown-menu.module.scss";
 
 interface MenuItem {

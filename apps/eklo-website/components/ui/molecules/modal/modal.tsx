@@ -1,7 +1,7 @@
 "use client";
 
 import classNames from "classnames";
-import React, { FC, PropsWithChildren } from "react";
+import React, { type FC, type PropsWithChildren } from "react";
 import { Button } from "../../atoms/button";
 import { CloseIcon } from "../../icons/close";
 import styles from "./modal.module.scss";
