@@ -12,6 +12,7 @@ export const LibraryLogo = (props: {
       height="90.205"
       viewBox="0 0 360.217 90.205"
     >
+      <title>library-logo</title>
       <g
         id="Groupe_1626"
         data-name="Groupe 1626"

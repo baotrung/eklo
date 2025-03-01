@@ -11,6 +11,21 @@ import "swiper/scss";
 import "swiper/scss/pagination";
 import styles from "./detail-section.module.scss";
 
+const swiperLides = [
+  {
+    id: 0,
+    src: "/images/workshop/slide-0.png",
+  },
+  {
+    id: 1,
+    src: "/images/workshop/slide-1.png",
+  },
+  {
+    id: 2,
+    src: "/images/workshop/slide-2.png",
+  },
+];
+
 export const DetailSection = () => {
   const t = useTranslations("services.coaching_page.detail_section");
   return (
@@ -65,14 +80,9 @@ export const DetailSection = () => {
           paddingBottom: "3rem",
         }}
       >
-        {[...Array(3)].map((_, index) => (
-          <SwiperSlide className={styles.slide} key={index}>
-            <Image
-              src={`/images/workshop/slide-${index}.png`}
-              alt={`slide-${index}`}
-              fill
-              sizes="100%"
-            />
+        {swiperLides.map(({ id, src }) => (
+          <SwiperSlide className={styles.slide} key={id}>
+            <Image src={src} alt={`slide-${id}`} fill sizes="100%" />
           </SwiperSlide>
         ))}
       </Swiper>

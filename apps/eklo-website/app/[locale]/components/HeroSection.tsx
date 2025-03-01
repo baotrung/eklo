@@ -39,7 +39,8 @@ export const HeroSection = () => {
           viewBox="0 0 24 24"
           stroke="currentColor"
         >
-          <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          <title>arrow_down</title>
+          <path d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>
       </div>
     </section>

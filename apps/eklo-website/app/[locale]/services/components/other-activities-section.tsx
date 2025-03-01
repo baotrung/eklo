@@ -13,7 +13,7 @@ export const OtherActivitesSection = () => {
   const { serviceName } = useService();
   const services = ALL_SERVICES.filter((s) => s !== serviceName);
 
-  const t = useTranslations(`services.other_activities`);
+  const t = useTranslations("services.other_activities");
   return (
     <MaxWidthContainer
       containerClassName={styles.container}

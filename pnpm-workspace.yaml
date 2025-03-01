@@ -2,8 +2,6 @@ packages:
   - libs/*
   - apps/*
 onlyBuiltDependencies:
+  - '@biomejs/biome'
   - nx
   - sharp
-ignoredBuiltDependencies:
-  - '@parcel/watcher'
-  - '@swc/core'

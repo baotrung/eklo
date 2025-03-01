@@ -1,7 +1,7 @@
+import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 import type { FC } from "react";
 import styles from "./Footer.module.scss";
-import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/routing";
 
 export const Footer: FC = () => {
   const t_ = useTranslations("footer");

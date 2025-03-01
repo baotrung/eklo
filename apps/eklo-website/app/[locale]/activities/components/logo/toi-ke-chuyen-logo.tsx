@@ -12,6 +12,7 @@ export const ToiKeChuyenLogo = (props: {
       height="91.623"
       viewBox="0 0 357.618 91.623"
     >
+      <title>To ke chuyen logo</title>
       <g
         id="Groupe_1625"
         data-name="Groupe 1625"

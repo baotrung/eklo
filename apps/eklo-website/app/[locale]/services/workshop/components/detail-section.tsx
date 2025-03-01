@@ -59,11 +59,11 @@ export const DetailSection = () => {
           paddingBottom: "3rem",
         }}
       >
-        {[...Array(3)].map((_, index) => (
-          <SwiperSlide className={styles.slide} key={index}>
+        {[1, 2, 3].map((id) => (
+          <SwiperSlide className={styles.slide} key={id}>
             <Image
-              src={`/images/workshop/slide-${index}.png`}
-              alt={`slide-${index}`}
+              src={`/images/workshop/slide-${id}.png`}
+              alt={`slide-${id}`}
               fill
               sizes="100%"
             />

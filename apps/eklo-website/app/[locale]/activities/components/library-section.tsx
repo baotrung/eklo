@@ -9,12 +9,6 @@ import { LibraryLogo } from "./logo/library-logo";
 export const LibrarySection = () => {
   return (
     <>
-      <script
-        async
-        defer
-        crossOrigin="anonymous"
-        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"
-      ></script>
       <MaxWidthContainer
         containerClassName={styles.container}
         wrapperClassname={styles.wrapper}
@@ -52,13 +46,6 @@ export const LibrarySection = () => {
             Một series podcast với nhiều thông tin bổ ích.
           </li>
         </ul>
-
-        {/* <div
-            className="fb-video"
-            data-href="https://www.facebook.com/EkloCoaching/videos/422004493843889"
-            data-width="500px"
-            data-show-text="false"
-          /> */}
 
         <div className={styles["btn-group"]}>
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf1eh1XlrILc-XgwO_B2UVDpQJZh1frz6U3yMZ9muaGE5dkLA/viewform">

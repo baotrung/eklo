@@ -5,13 +5,13 @@ import { MaxWidthContainer } from "@/components/MaxWidthContainer";
 export const Embeded = () => {
   return (
     <>
-      <div id="fb-root"></div>
+      <div id="fb-root" />
       <script
         async
         defer
         crossOrigin="anonymous"
         src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"
-      ></script>
+      />
       <MaxWidthContainer>
         <h1>Blog</h1>
         <div
@@ -36,7 +36,8 @@ export const Embeded = () => {
             data-adapt-container-width
             allowFullScreen
             allow="fullscrren; autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share; data-adapt-container-width"
-          ></iframe>
+            title="Facebook Page"
+          />
         </div>
       </MaxWidthContainer>
     </>

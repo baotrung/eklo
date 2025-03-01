@@ -9,5 +9,8 @@
     "nx": "20.0.12",
     "tslib": "^2.3.0",
     "typescript": "~5.5.2"
+  },
+  "dependencies": {
+    "uuid": "^11.1.0"
   }
 }

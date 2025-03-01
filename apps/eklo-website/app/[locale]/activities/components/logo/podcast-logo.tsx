@@ -14,6 +14,7 @@ export const PodcastLogo = (props: {
       height="50.449"
       viewBox="0 0 361.109 91.449"
     >
+      <title>podcast-logo</title>
       <g id="Groupe_5" data-name="Groupe 5" transform="translate(0 1.244)">
         <path
           id="Tracé_20"

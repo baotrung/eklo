@@ -1,4 +1,4 @@
-import React, { type FC } from "react";
+import type { FC } from "react";
 import styles from "./icon.module.css";
 
 interface Props {
@@ -15,6 +15,7 @@ export const MenuIcon: FC<Props> = ({ color }) => {
       width="40px"
       fill="#e8eaed"
     >
+      <title>menu</title>
       <path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z" />
     </svg>
   );

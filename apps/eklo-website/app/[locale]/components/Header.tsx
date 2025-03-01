@@ -38,11 +38,11 @@ export const Header: FC = () => {
 
         {/* Navbar desktop */}
         <div className={styles["navbar-lg"]}>
-          {navItems.map((navItem, index) => {
+          {navItems.map((navItem) => {
             if (navItem.type === "navlink") {
               return (
                 <Button
-                  key={index}
+                  key={`${navItem.type}-${navItem.label}`}
                   variant="text"
                   onClick={() => {
                     router.push(navItem.path);
@@ -60,7 +60,7 @@ export const Header: FC = () => {
                     {t(navItem.label)}
                   </Button>
                 }
-                key={index}
+                key={`${navItem.type}-${navItem.label}`}
                 items={navItem.items.map((link) => ({
                   id: link.label,
                   label: t(link.label),
@@ -93,7 +93,7 @@ export const Header: FC = () => {
           <div className={styles["item-wrap"]}>
             <Link
               href={"/"}
-              className={styles["item"]}
+              className={styles.item}
               onClick={mobileNavModal.closeModal}
             >
               {t("home")}
@@ -105,7 +105,7 @@ export const Header: FC = () => {
                 <div className={styles["item-wrap"]} key={item.label}>
                   <Link
                     href={item.path}
-                    className={styles["item"]}
+                    className={styles.item}
                     onClick={mobileNavModal.closeModal}
                   >
                     {t(item.label)}
@@ -114,9 +114,9 @@ export const Header: FC = () => {
               );
             }
             return (
-              <div className={styles["group"]} key={item.label}>
+              <div className={styles.group} key={item.label}>
                 <div className={styles.name}>{t(item.label)}</div>
-                <div className={styles["items"]}>
+                <div className={styles.item}>
                   {item.items.map((subItem) => (
                     <Link
                       href={subItem.path}

@@ -14,6 +14,7 @@ export const PodcastSection = () => {
       <h3 className={styles.title}>Podcast Trà đá cùng Eklo</h3>
       <p className={styles.description}>{t("podcast_description")}</p>
       <iframe
+        title="Podcast Trà đá cùng Eklo"
         className={styles["spotify-embeded"]}
         src="https://open.spotify.com/embed/show/6hylZ6zQcHnQeOVehCoFXD?utm_source=generator&theme=0"
         width="100%"
@@ -21,7 +22,7 @@ export const PodcastSection = () => {
         allowFullScreen
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
-      ></iframe>
+      />
     </MaxWidthContainer>
   );
 };

@@ -6,7 +6,7 @@ import Image from "next/image";
 import styles from "./hero-section.module.scss";
 
 export const HeroSection = () => {
-  const t = useTranslations(`activities_page`);
+  const t = useTranslations("activities_page");
   return (
     <MaxWidthContainer
       containerClassName={styles.container}

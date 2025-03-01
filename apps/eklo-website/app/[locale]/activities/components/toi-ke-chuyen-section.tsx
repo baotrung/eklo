@@ -10,7 +10,7 @@ export const ToiKeChuyenSection = () => {
       containerClassName={styles.container}
       wrapperClassname={styles.wrapper}
     >
-      <ToiKeChuyenLogo className={styles["logo"]} />
+      <ToiKeChuyenLogo className={styles.logo} />
       <h3 className={styles.title}>Tôi Kể Chuyện</h3>
       <p>
         Dự án « Tôi kể chuyện » là một chuỗi những buổi trò chuyện và chia sẻ từ

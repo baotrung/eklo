@@ -34,7 +34,7 @@ export const HeroSection = () => {
       <div className={styles.heading}>
         <h3 className={styles.title}>{title}</h3>
         <div className={classNames(styles["img-star"])}>
-          <Image src={`/images/star-yellow.svg`} alt="pattern workshop" fill />
+          <Image src="/images/star-yellow.svg" alt="pattern workshop" fill />
         </div>
       </div>
       <div className={styles["presentation-wrap"]}>
