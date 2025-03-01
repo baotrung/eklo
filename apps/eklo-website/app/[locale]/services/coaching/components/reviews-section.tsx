@@ -42,7 +42,7 @@ export const ReviewsSection = () => {
     ({ imageUrl }: { imageUrl: string }) => {
       openModal(imageUrl);
     },
-    [openModal]
+    [openModal],
   );
 
   return (

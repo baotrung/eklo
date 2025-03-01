@@ -1,3 +1,9 @@
 packages:
-  - 'libs/*'
-  - 'apps/*'
+  - libs/*
+  - apps/*
+onlyBuiltDependencies:
+  - nx
+  - sharp
+ignoredBuiltDependencies:
+  - '@parcel/watcher'
+  - '@swc/core'

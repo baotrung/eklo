@@ -71,9 +71,7 @@ export const ReviewsSection: FC = () => {
                 <div className={styles.review}>
                   <Image src={review.avatar} alt="avatar" />
                   <div className={styles["review-detail"]}>
-                    <label className={styles["reviewer-name"]}>
-                      {review.reviewer}
-                    </label>
+                    <p className={styles["reviewer-name"]}>{review.reviewer}</p>
                     <p>{t(review.content)}</p>
                   </div>
                 </div>

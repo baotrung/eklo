@@ -24,7 +24,7 @@ export const HeroSection = () => {
   }, [serviceName]);
 
   const t = useTranslations(
-    `services.${serviceName.replaceAll("-", "_")}_page`
+    `services.${serviceName.replaceAll("-", "_")}_page`,
   );
   return (
     <MaxWidthContainer

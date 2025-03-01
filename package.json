@@ -4,10 +4,9 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "nx": "20.0.12",
-    "prettier": "^2.6.2",
     "tslib": "^2.3.0",
     "typescript": "~5.5.2"
   }

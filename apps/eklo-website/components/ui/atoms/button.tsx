@@ -26,7 +26,7 @@ export const Button = forwardRef<HTMLButtonElement, Props>((props, ref) => {
         styles.button,
         styles[`${variant}-${color}`],
         styles[`fontSize-${fontSize}`],
-        props.className
+        props.className,
       )}
       ref={ref}
     >
